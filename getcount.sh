@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p ~/.config/config/hydroxide
+mkdir -p ~/.config/hydroxide
 echo \{\"$USER\":\"$AUTH\"\} > ~/.config/hydroxide/auth.json
 
 hydroxide server &> /dev/null &
